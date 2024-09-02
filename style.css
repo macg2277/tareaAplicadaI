@@ -1,16 +1,16 @@
-/* Estilo general del cuerpo de la página */
+
 body {
-    background-color: #e0f7fa; /* Color de fondo azul claro */
-    color: #2c3e50; /* Color de texto gris oscuro */
+    background-color: #e0f7fa; 
+    color: #2c3e50; 
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo del encabezado */
+
 header {
-    background-color: #00796b; /* Fondo verde oscuro */
-    color: white; /* Color de texto blanco */
+    background-color: #00796b; 
+    color: white; 
     text-align: center;
     padding: 20px 0;
 }
@@ -32,90 +32,118 @@ p {
 }
 
 img {
-    display: block; /* Asegura que la imagen sea un bloque */
-    margin-left: auto; /* Auto margen izquierdo */
-    margin-right: auto; /* Auto margen derecho */
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
-/* Estilo para la tabla */
+
 table {
-    width: 100%; /* Ajusta el ancho de la tabla */
-    border-collapse: collapse; /* Colapsa los bordes */
-    margin: 20px 0; /* Espaciado vertical */
-    border: 2px solid #00796b; /* Borde alrededor de la tabla */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    border: 2px solid #00796b; 
 }
 
-/* Estilo para las celdas de la tabla */
+
 td {
-    border: 2px solid #00796b; /* Borde de las celdas */
-    padding: 8px; /* Espaciado dentro de las celdas */
-    text-align: center; /* Centra el contenido de las celdas horizontalmente */
-    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+    border: 2px solid #00796b; 
+    padding: 8px; 
+    text-align: center; 
+    vertical-align: middle; 
 }
 
-/* Estilo para los encabezados de la tabla (si los usas) */
+
 th {
-    border: 2px solid #00796b; /* Borde de los encabezados de las celdas */
-    padding: 8px; /* Espaciado dentro de los encabezados */
-    text-align: center; /* Centra el contenido de los encabezados horizontalmente */
-    background-color: #004d40; /* Fondo oscuro para los encabezados */
-    color: white; /* Color del texto en los encabezados */
+    border: 2px solid #00796b; 
+    padding: 8px; 
+    text-align: center; 
+    background-color: #004d40; 
+    color: white; 
 }
 
-/* Estilo para las imágenes */
+
 img {
-    max-width: 100%; /* Ajusta la imagen al tamaño de la celda */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Asegura que la imagen se comporte como un bloque */
-    margin: 0 auto; /* Centra la imagen horizontalmente en su celda */
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 #img1 {
-    width: 200px; /* Tamaño específico para la primera imagen */
+    width: 200px; 
     height: auto;
 }
 
 #img2 {
-    width: 300px; /* Tamaño específico para la segunda imagen */
+    width: 300px; 
     height: auto;
 }
 
 #img3 {
-    width: 200px; /* Tamaño específico para la tercera imagen */
+    width: 200px; 
     height: auto;
 }
 
 #img4 {
-    width: 200px; /* Tamaño específico para la cuarta imagen */
+    width: 200px; 
     height: auto;
 }
 
 #img5 {
-    width: 300px; /* Tamaño específico para la quinta imagen */
+    width: 300px; 
     height: auto;
 }
 
 #img6 {
-    width: 300px; /* Tamaño específico para la sexta imagen */
+    width: 300px; 
     height: auto;
 }
 
 #img7 {
-    width: 300px; /* Tamaño específico para la sexta imagen */
+    width: 300px; 
     height: auto;
 }
 
 #img8 {
-    width: 200px; /* Tamaño específico para la sexta imagen */
+    width: 200px; 
     height: auto;
 }
 
 #img9 {
-    width: 300px; /* Tamaño específico para la sexta imagen */
+    width: 300px; 
     height: auto;
 }
 
 #img10 {
-    width: 300px; /* Tamaño específico para la sexta imagen */
+    width: 300px; 
     height: auto;
+}
+footer {
+    background-color: #00796b; 
+    color: white; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    color: #007BFF;
 }
