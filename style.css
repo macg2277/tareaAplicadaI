@@ -1,0 +1,121 @@
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #e0f7fa; /* Color de fondo azul claro */
+    color: #2c3e50; /* Color de texto gris oscuro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #00796b; /* Fondo verde oscuro */
+    color: white; /* Color de texto blanco */
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin-left: auto; /* Auto margen izquierdo */
+    margin-right: auto; /* Auto margen derecho */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%; /* Ajusta el ancho de la tabla */
+    border-collapse: collapse; /* Colapsa los bordes */
+    margin: 20px 0; /* Espaciado vertical */
+    border: 2px solid #00796b; /* Borde alrededor de la tabla */
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+    border: 2px solid #00796b; /* Borde de las celdas */
+    padding: 8px; /* Espaciado dentro de las celdas */
+    text-align: center; /* Centra el contenido de las celdas horizontalmente */
+    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+}
+
+/* Estilo para los encabezados de la tabla (si los usas) */
+th {
+    border: 2px solid #00796b; /* Borde de los encabezados de las celdas */
+    padding: 8px; /* Espaciado dentro de los encabezados */
+    text-align: center; /* Centra el contenido de los encabezados horizontalmente */
+    background-color: #004d40; /* Fondo oscuro para los encabezados */
+    color: white; /* Color del texto en los encabezados */
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%; /* Ajusta la imagen al tamaño de la celda */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente en su celda */
+}
+
+#img1 {
+    width: 200px; /* Tamaño específico para la primera imagen */
+    height: auto;
+}
+
+#img2 {
+    width: 300px; /* Tamaño específico para la segunda imagen */
+    height: auto;
+}
+
+#img3 {
+    width: 200px; /* Tamaño específico para la tercera imagen */
+    height: auto;
+}
+
+#img4 {
+    width: 200px; /* Tamaño específico para la cuarta imagen */
+    height: auto;
+}
+
+#img5 {
+    width: 300px; /* Tamaño específico para la quinta imagen */
+    height: auto;
+}
+
+#img6 {
+    width: 300px; /* Tamaño específico para la sexta imagen */
+    height: auto;
+}
+
+#img7 {
+    width: 300px; /* Tamaño específico para la sexta imagen */
+    height: auto;
+}
+
+#img8 {
+    width: 200px; /* Tamaño específico para la sexta imagen */
+    height: auto;
+}
+
+#img9 {
+    width: 300px; /* Tamaño específico para la sexta imagen */
+    height: auto;
+}
+
+#img10 {
+    width: 300px; /* Tamaño específico para la sexta imagen */
+    height: auto;
+}
